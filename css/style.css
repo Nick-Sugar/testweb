@@ -1,0 +1,66 @@
+body
+{
+    display: flex;
+}
+#b_button
+{
+    position: fixed;
+    top: 0;
+    left: 0%; 
+    z-index:10000;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    background-color: rgb(117, 8, 8);
+}
+#b_main
+{
+    margin-right: auto;
+    display: none;
+    width: 50%;
+    background: url("img/menu_bg.png") repeat top left;
+}
+#b_main ul
+{
+    width: 100vh;
+    position: fixed;
+}
+#main
+{
+    margin-left: auto;
+    width: 100%;
+}
+#TopImage
+{
+    position: relative;
+    width: 100%;
+}
+#TopImage img
+{
+    width: 100%;
+}
+#logo
+{
+    position: absolute;
+    width: 57%;
+    bottom : 45%;
+    left : 0%;
+}
+#logo img
+{
+    position: absolute;
+    right: 0%;
+    width: 20%;
+}
+#cm
+{
+    display:flex;
+}
+#cm div
+{
+    width: 50%;
+}
+#cm h1
+{
+    color: blue;
+}
